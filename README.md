@@ -60,21 +60,34 @@ MindDash is a mobile trivia game that challenges players with questions from var
 
 ## Screenshots
 
-The app consists of two main screens:
+<div align="center">
 
 ### Start Page
-- App title "mindDash" with elegant typography
-- Difficulty selector dropdown (Easy/Medium/Hard)
-- Category selector dropdown (20+ categories)
-- Animated "Start" button
+Select your difficulty level and quiz category before starting.
 
-### Quiz Page
-- Countdown timer at the top
-- Question displayed prominently in the center
-- Four answer options as buttons
-- Color-coded feedback (green for correct, red for incorrect)
-- "Next Question" button after answering
-- Final score screen upon completion
+<img src="screenshots/01-start-page.png" alt="Start Page" width="250"/>
+
+### Quiz Question
+Answer questions within the 15-second timer.
+
+<img src="screenshots/02-quiz-question.png" alt="Quiz Question" width="250"/>
+
+### Correct Answer
+Correct answers are highlighted in green.
+
+<img src="screenshots/03-correct-answer.png" alt="Correct Answer" width="250"/>
+
+### Wrong Answer
+Wrong answers show in red, with the correct answer revealed in green.
+
+<img src="screenshots/04-wrong-answer.png" alt="Wrong Answer" width="250"/>
+
+### Quiz Completed
+View your final score and play again.
+
+<img src="screenshots/05-quiz-completed.png" alt="Quiz Completed" width="250"/>
+
+</div>
 
 ## Tech Stack
 
@@ -106,6 +119,7 @@ mindDash/
 ├── components/
 │   ├── StartPage.js            # Home screen with settings
 │   └── QuizPage.js             # Quiz gameplay screen
+├── screenshots/                # App screenshots for documentation
 ├── utils/
 │   └── htmlEntities.js         # HTML entity decoder utility
 ├── App.js                      # Main app component
